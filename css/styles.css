@@ -77,6 +77,11 @@ h6 {
   margin-block: 1.5rem;
 }
 
+.cafe-menu img {
+  display: block;
+  margin-inline: auto;
+}
+
 .cafe-menu .item {
   width: 100%;
 }
@@ -103,3 +108,5 @@ footer a {
   text-decoration: none;
   margin-bottom: 0.5em;
 }
+
+
