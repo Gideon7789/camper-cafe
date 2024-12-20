@@ -1,0 +1,102 @@
+@font-face {
+	font-family: "opensans";
+	src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
+/* 1em -> 16px */
+/* 1rem -> 16px */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	font-family: opensans, sans-serif;
+	font-size: 1rem;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "impact", serif;
+	text-align: center;
+	
+}
+
+/* MAIN STYLING BEGINS */
+.menu {
+	width: 100%;
+	min-height: 100vh;
+	background: url("../img/bg-2.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 2em;
+}
+
+.cafe-menu {
+	background: burlywood;
+	width: 70%;
+	max-width: 700px;
+	min-height: 90vh;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em 1em;
+}
+
+.cafe-menu h1 {
+	font-size: 2rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.cafe-menu .established {
+	text-align: center;
+	font-style: italic;
+	margin: 1em 0;
+}
+
+.cafe-menu hr {
+	border: 2px solid brown;
+	margin-bottom: 1em;
+}
+
+.cafe-menu h2 {
+	font-size: 2rem;
+	margin-block: 1.5rem;
+}
+
+.cafe-menu .item {
+	width: 100%;
+}
+
+.cafe-menu .item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-block: 0.5rem;
+	font-size: 1.125;
+}
+
+.cafe-menu .final-item {
+	margin-bottom: 1em;
+}
+
+footer {
+	text-size: 16px;
+	text-align: center;
+}
+
+footer a {
+	font-size: 1rem;
+	text-decoration: none;
+	margin-bottom: 0.5em;
+}
+
